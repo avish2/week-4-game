@@ -1,0 +1,52 @@
+html { 
+  background: url("http://soilpluskona.com/ewExternalFiles/nurseryman_mix1.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.crystal {
+	width: 250px;
+	height: 250px;
+	margin:10px;
+}
+
+#crystalcontainer {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Crushed', cursive;
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	font-size: 18px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#number {
+	padding: 7%;
+	margin: 30px;
+	background-color: rgba(245,245,191,0.39);
+}
+
+#yournumber {
+	padding: 7%;
+	margin: 30px;
+	background-color: rgba(128,128,128,0.48);
+}
+.row {
+	margin-left: 18%;
+}
+body {
+	background-color: rgba(25,25,25,0);
+}
+
+@media screen and (max-width: 1199px) {
+	div.row {
+		margin: auto;
+	}
